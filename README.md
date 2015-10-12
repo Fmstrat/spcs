@@ -9,7 +9,10 @@ Features include:
 - No need to have Calibre running
 - Sortable results
 - Cover display
- 
+
+## Download
+
+Grab the latest zip from the <a href="https://github.com/Fmstrat/spcs/tree/master/builds">builds directory</a>.
 
 ##Usage/Installation
 
