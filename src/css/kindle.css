@@ -1,0 +1,189 @@
+/*
+
+Calibre blue: #39a9cf
+
+Calibre gold: #b78939
+
+*/
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.searchbar {
+	position: absolute;
+	left: 0;
+	z-index: 100; 
+	width: 100%;
+	height:75px;
+	background-color: #39a9cf; 
+	text-align: center;
+}
+
+.searchinner {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #FFFFFF;
+}
+
+
+.booksent {
+	position: absolute;
+	left: 0;
+	top: 75px;
+	bottom: 75px;
+	overflow-y: scroll;
+	width: 90%;
+	margin: 0;
+	padding: 10px;
+	background-color: #ffffff; 
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000;
+}
+
+.settings {
+	position: absolute;
+	left: 0;
+	top: 75px;
+	bottom: 75px;
+	overflow-y: scroll;
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	background-color: #ffffff; 
+	font-family: Arial;
+	font-size: 8pt;
+	color: #000000;
+}
+
+.settingsbutton {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	z-index: 101; 
+}
+
+.sortbutton {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	z-index: 101; 
+}
+
+.results {
+	position: absolute;
+	left: 0;
+	top: 75px;
+	bottom: 75px;
+	overflow-y: scroll;
+	width: 100%;
+	margin: 0;
+	background-color: #ffffff; 
+}
+
+.result {
+	width: 100%;
+	height: 105px;
+	padding: 5;
+	font-family: Arial;
+	font-size: 6pt;
+	color: #000000;
+	overflow: visible;
+}
+
+.booktitle {
+	position: relative;
+	max-height: 40px;
+	overflow: hidden;
+}
+
+.author {
+	position: relative;
+	height: 20px;
+	overflow: hidden;
+}
+
+.footerbar {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 100; 
+	width: 100%;
+	height: 75px;
+	background-color: #39a9cf; 
+	text-align: center;
+}
+
+.footerinner {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 6pt;
+	color: #FFFFFF;
+}
+
+.input {
+	border: 1px solid #39a9cf;
+	background: #FFFFFF;
+	padding: 2pt;
+}
+
+.button {
+	border: 1px solid #b78939;
+	background: #39a9cf;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #FFFFFF;
+}
+
+
+.ybutton {
+	border: 1px solid #000000;
+	background: #b78939;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #FFFFFF;
+}
+
+.sortwindow {
+	position: absolute;
+	left: 0px;
+	bottom: 50px;
+	width: 160px;
+	visibility: hidden;
+}
+
+.sortoption {
+	height: 26px;
+	padding: 5px;
+	width: 100%;
+	background-color: #39a9cf;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #FFFFFF;
+	border-top: 1px solid #555555;
+}
+
+.sortoptionactive {
+	height: 26px;
+	padding: 5px;
+	width: 100%;
+	background-color: #b78939;
+	font-family: Arial;
+	font-size: 8pt;
+	color: #FFFFFF;
+	border-top: 1px solid #555555;
+}
+
+.squarebutton {
+	height: 50px;
+}
